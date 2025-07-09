@@ -1,0 +1,93 @@
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
+header {
+  text-align: center;
+  background-color: #cce5ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Tiêu đề chính */
+h1 {
+  font-size: 2em;
+  margin-top: 10px;
+  color: #003366;
+}
+
+
+header img {
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Main content */
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+main img {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+main img:hover {
+  transform: scale(1.05);
+  border-color: #0077cc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #aaa;
+  color: #666;
+}
+
+footer a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
